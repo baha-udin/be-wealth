@@ -1,0 +1,68 @@
+{
+  "profile": {
+    "name": "Cheline"
+  },
+  "expenses": [
+    {
+      "category": "Belanja Bulanan",
+      "nominal": "23000",
+      "date": "2022-11-02T08:20:51.678Z",
+      "notes": "Beli sampo",
+      "id": 1
+    },
+    {
+      "category": "Kopi",
+      "nominal": "20000",
+      "date": "2022-11-02T08:20:51.678Z",
+      "notes": "Di kafka",
+      "id": 2
+    },
+    {
+      "category": "Rokok",
+      "nominal": "23000",
+      "date": "2022-11-09T00:05:30.179Z",
+      "id": 3
+    },
+    {
+      "category": "Belanja Bulanan",
+      "nominal": "5000",
+      "date": "2022-11-09T00:12:59.176Z",
+      "notes": "Beli tempe",
+      "id": 4
+    }
+  ],
+  "income": [
+    {
+      "category": "Gaji bulanan",
+      "nominal": "8000000",
+      "date": "2022-11-02T08:22:28.001Z",
+      "id": 1
+    },
+    {
+      "category": "Side project",
+      "nominal": "400000",
+      "date": "2022-11-17T08:45:00.000Z",
+      "id": 2
+    }
+  ],
+  "calculate": [
+    {
+      "id": 1,
+      "title": "Total Saldo",
+      "nominal": 23000000,
+      "date": "23-10-2022"
+    },
+    {
+      "id": 2,
+      "title": "Total Income",
+      "nominal": 450000,
+      "date": "23-10-2022"
+    },
+    {
+      "id": 3,
+      "title": "Total Expenses",
+      "nominal": 2000000,
+      "date": "23-10-2022"
+    }
+  ]
+}

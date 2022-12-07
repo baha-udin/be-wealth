@@ -5,7 +5,6 @@ import {ResHeight, ResWidth, Fonts} from '../../Utils';
 const Purpose = () => {
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor={'light'} barStyle="dark-content" />
       <View style={styles.wrapHeader}>
         <Text style={styles.title}>Purpose your Financial Wealth</Text>
       </View>

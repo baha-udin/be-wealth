@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, Platform} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {
@@ -44,8 +44,8 @@ const MainMenu = focused => {
           marginHorizontal: 20,
           borderRadius: 15,
           height: ResHeight(70),
-          paddingTop: Platform.OS == 'ios' ? 4 : 0,
-          paddingBottom: Platform.OS == 'ios' ? 24 : 0,
+          paddingTop: Platform.OS == 'ios' ? 4 : 6,
+          paddingBottom: Platform.OS == 'ios' ? 24 : 12,
           ...styles.shadow,
         },
       }}>

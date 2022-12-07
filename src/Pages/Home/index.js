@@ -37,10 +37,14 @@ const Home = ({navigation}) => {
   };
 
   const getProfile = () => {
-    Axios.get('http://localhost:3000/profile').then(response => {
-      data = response.data;
-      setName(data.name);
-    });
+    Axios.get('http://localhost:3000/profile')
+      .then(response => {
+        data = response.data;
+        setName(data.name);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   };
   const getTotalSaving = async () => {
     const resp = await fetch('http://localhost:3000/calculate');
@@ -58,10 +62,14 @@ const Home = ({navigation}) => {
     setTotalExpenses(json[2].nominal);
   };
   const getListExpenses = () => {
-    Axios.get('http://localhost:3000/expenses').then(response => {
-      data = response.data;
-      setListExpenses(data);
-    });
+    Axios.get('http://localhost:3000/expenses')
+      .then(response => {
+        data = response.data;
+        setListExpenses(data);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   };
   useEffect(() => {
     getProfile();

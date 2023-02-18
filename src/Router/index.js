@@ -33,7 +33,7 @@ const Tab = createBottomTabNavigator();
 const MainMenu = focused => {
   return (
     <Tab.Navigator
-      initialRouteName="Profile"
+      initialRouteName="Home"
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,
@@ -175,7 +175,7 @@ const MainMenu = focused => {
 
 const Router = () => {
   return (
-    <Stack.Navigator initialRouteName="MainMenu">
+    <Stack.Navigator initialRouteName="Splash">
       <Stack.Screen
         name="MainMenu"
         component={MainMenu}

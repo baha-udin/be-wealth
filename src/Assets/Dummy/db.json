@@ -29,6 +29,12 @@
       "date": "2022-11-09T00:12:59.176Z",
       "notes": "Beli tempe",
       "id": 4
+    },
+    {
+      "category": "Bensin",
+      "nominal": "23000",
+      "date": "2023-02-18T06:36:45.503Z",
+      "id": 5
     }
   ],
   "income": [
